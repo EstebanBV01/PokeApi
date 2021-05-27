@@ -1,0 +1,63 @@
+.atraparPokemon {
+    background-color:rgb(53, 77, 209);
+    border-radius: 10%;
+    padding: 2px 2px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+p{
+    color: blueviolet;
+}
+.buscador{
+background-color:rgb(216, 211, 189);
+ }
+ td{
+    border-radius: 10%;
+    padding: 6px 19px; 
+ }
+ .atraparPokemo {
+    background-color:rgb(53, 77, 209);
+    border-radius: 10%;
+    padding: 2px 2px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#imagen{
+    max-width: 10ch;
+    max-height: 5ch;
+    margin-bottom: 5ch;
+}
+table{
+    font-family:Ubuntu;
+    
+}
+#conenedorFormularioEntrenador{
+    padding-left: 10ch;
+}
+#btnConfirmar{
+    background-color: aqua;
+    font-size: 5ch;
+}
+.eliminarEntrenador{
+    background-color:rgb(209, 53, 74);
+    border-radius: 10%;
+    padding: 2px 2px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#conenedorFormularioEntrenador{
+    padding-left: 50%;
+    padding-bottom: 2%;
+    border-radius: 12px;
+    border-color: black;
+}
+#txNombre{
+    margin-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 12px;
+    border-color: black;
+    background:rgb(236, 235, 229);
+}

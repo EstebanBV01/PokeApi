@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PokeApiEsteban</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/tailwind.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="imagen" class="mt-2">
+        <img src="poke3.png" class="mt-2" alt="logo de pokemon">
+        
+    </div>
+    <img src="https://fontmeme.com/permalink/210524/be8f0f88eb1d93f58b7d2c48f5a39434.png" alt="">
+    <div class="">
+        <div class="six columns">
+            <label class="text-2xl mt-5 font-bold uppercase text-center">Ingresa tu nombre para atrapar un pokemon!!</label>
+            <div id="conenedorFormularioEntrenador">
+                <form id="formulario" class="" action="#" method="POST">
+                    <div class="">
+                        <input 
+                            type="text" 
+                            name="nombreEntrenador"
+                            id="txNombre"
+                            placeholder="nombre de Entrenador"
+                            class="w-half p-2 rounded"
+                        />
+                        <h3>no esta registrado?</h3><p > <a href="registro.html">haz click aqui</a></p>
+
+                    </div>
+                </form>
+                <!-- <button id="btnConfirmar">Confirmar</button> -->
+
+            </div>
+            <div id="contenedorListaPokemon"  class="bg-orange-100  text-1xl  font-bold uppercase text-center">
+                
+                <table id="listaPokemonIndex">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Tipo</th>
+                            <th></th>
+                        </tr>
+                        <tr><th></th></tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div> 
+        <div id="resultado" class=" bg-orange-100">
+            <label class="text-2xl mt-5 font-bold uppercase text-center">Entrenadores Registrados</label>
+            <table id="tablaListaEntrenadores">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Lista de pokemons</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+    </div>
+    <script src='js/app.js'></script>
+<!--Firebase Libraries-->
+<!--Firebase Libraries-->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>
+<script src='js/BD.js'></script> 
+</body>
+</html>

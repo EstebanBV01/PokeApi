@@ -1,0 +1,37 @@
+[
+    {
+        "id" : 1,
+        "nombre" : "tricko",
+        "tipo" : "planta"
+   },
+    {
+        "id" : 2,
+        "nombre" : "blastoise",
+        "tipo" : "agua"
+   },
+    {
+         "id" : 3,
+         "nombre" : "chicorita",
+         "tipo" : "planta"
+    },
+    {
+        "id" : 4,
+        "nombre" : "charmander",
+        "tipo" : "fuego"
+   },
+   {
+     "id" : 5,
+     "nombre" : "Lapras",
+     "tipo" : "agua"
+   },
+   {
+     "id" : 6,
+     "nombre" : "tortoise",
+     "tipo" : "fuego"
+   },
+   {
+     "id" : 7,
+     "nombre" : "Greninja",
+     "tipo" : "Agua"
+   }
+]
